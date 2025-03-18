@@ -5,16 +5,18 @@ manifest:
     - name: sayu-hub
       url-base: https://github.com/sayu-hub
     - name: caksoylar  # <-- new entry
-      url-base: https://github.com/caksoylar  
+      url-base: https://github.com/caksoylar 
+    - name: 
+      url-base: https://github.com/ark547 # <-- new entry
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
     - name: zmk-pmw3610-driver
-      remote: sayu-hub
+      remote: ark547 # <-- change remote sayu-hub
       revision: main
-    - name: zmk-rgbled-widget  # <-- new entry
+    - name: zmk-rgbled-widget  
       remote: caksoylar
       revision: main
   self:
