@@ -6,7 +6,7 @@ manifest:
       url-base: https://github.com/sayu-hub
     - name: caksoylar  # <-- new entry
       url-base: https://github.com/caksoylar 
-    - name: 
+    - name: ark547 
       url-base: https://github.com/ark547 # <-- new entry
   projects:
     - name: zmk
