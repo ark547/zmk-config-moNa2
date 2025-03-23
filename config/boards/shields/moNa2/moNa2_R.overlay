@@ -1,4 +1,4 @@
-j#include "moNa2.dtsi"
+#include "moNa2.dtsi"
 #include <input/processors.dtsi>
 
 &default_transform {
